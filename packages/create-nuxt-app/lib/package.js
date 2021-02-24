@@ -16,8 +16,8 @@ module.exports = {
       return {}
     }
     const prefix = name === 'nuxt' ? 'nuxt' : `frameworks/${name}`
-    const pkg = this.requireJSON(`cna-template/template/${prefix}/package.json`)
-    const pkgHandler = this.requireFile(`cna-template/template/${prefix}/package.js`)
+    const pkg = this.requireJSON(`cwa-template/template/${prefix}/package.json`)
+    const pkgHandler = this.requireFile(`cwa-template/template/${prefix}/package.js`)
     return pkgHandler.apply ? pkgHandler.apply(pkg, generator) : pkg
   },
   load (generator) {

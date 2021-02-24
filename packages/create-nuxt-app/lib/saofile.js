@@ -3,7 +3,7 @@ const spawn = require('cross-spawn')
 const validate = require('validate-npm-package-name')
 const pkg = require('./package')
 
-const cnaTemplateDir = join(dirname(require.resolve('cna-template/package.json')))
+const cnaTemplateDir = join(dirname(require.resolve('cwa-template/package.json')))
 const templateDir = join(cnaTemplateDir, 'template')
 const frameworksDir = join(templateDir, 'frameworks')
 

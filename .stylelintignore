@@ -1,3 +1,5 @@
 node_modules
 packages/cna-template/template/nuxt/pages/index.vue
 packages/cna-template/template/frameworks/view-ui/pages/index.vue
+packages/cwa-template/template/nuxt/pages/index.vue
+packages/cwa-template/template/frameworks/view-ui/pages/index.vue
